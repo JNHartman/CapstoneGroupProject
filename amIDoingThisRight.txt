@@ -2,3 +2,6 @@
 
 This is not an important file. 
 Pretty much just a place to jot stuff down.
+
+Can you see this???? 
+Now how do we open it up in VS code?
