@@ -3,5 +3,12 @@
 This is not an important file. 
 Pretty much just a place to jot stuff down.
 
+<<<<<<< HEAD
+
+Test push update 4-21-2021
+=======
 Can you see this???? 
 Now how do we open it up in VS code?
+>>>>>>> 6aaca1cc66b8aacc9872ada4cdbba24ad1158570
+Updated
+something
