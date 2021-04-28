@@ -39,6 +39,6 @@ body {
 
 }
 
-.container.navbar-brand img {
-  opacity: 1;
+.navbar-custom img{
+  background: rgba(255, 255, 255, 1);
 }
