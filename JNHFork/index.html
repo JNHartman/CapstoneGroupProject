@@ -24,10 +24,13 @@
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+  
+  <nav class="navbar navbar-custom fixed-top navbar-expand-lg navbar-light bg-light fixed-top " >
     <div class="container">
       <a class="navbar-brand" href="index.html">
-        <img><i class="fas fa-2x fa-home"></i></a>
+        <!-- <img><i class="fas fa-2x fa-home"></i></a> -->
+        <img src="images/BOTBLogo.png" width="130" height="80" alt="Bounty of the Barrens Logo">
+  </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -81,6 +84,7 @@
     </div>
   </nav>
 
+
   <header>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -90,23 +94,23 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <!-- Slide One - Set the background image for this slide in the line below -->
-           <div class="carousel-item active" style="background-image: url('assets/market\ still\ shot.jpg')">
+           <div class="carousel-item active align-items-center flex-column p-" style="background-image: url('assets/marketStillShotSlide.jpg')">
           <div class="carousel-caption d-none d-md-block">
             <h3>It's a beautiful day to visit Bounty of the Barrens</h3>
-            <p>This is a description for the first slide</p>
-          </div>
+            <br><p>This is a description for the first slide</p>
+          </div>r
         </div>
         <!-- Slide Two - Set the background image for this slide in the line below -->
         <div class="carousel-item" style="background-image: url('assets/berries.jpg')">
           <div class="carousel-caption d-none d-md-block">
-            <h3>Up to date producer info during live Farmers Market hours of operation</h3>
-            <p>Second Slide</p>
+            <h3 class="slideName">Summer 2021 Farmer's Market Schedule</h3><br>
+            <a href="https://www.barrenriverhealth.org/" target= "_blank" class="btn btn-primary">See Current Schedule</a>
           </div>
         </div>
 
         <!-- Slide Three - Set the background image for this slide in the line below -->
 
-        <div class="carousel-item" style="background-image: url('assets/images/peas.jpg')">
+        <div class="carousel-item" style="background-image: url('assets/ryan-stone-VnZMKbXrA0I-unsplash.jpg')">
           <div class="carousel-caption d-none d-md-block">
             <h3>Celebrate Local Comunities And Homegrown Technology</h3>
             <p>Broought to you by BC Skills Academy and Kentucky Workforce Development Board</p>
@@ -116,14 +120,14 @@
           </div>
         </div>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
       </a>
       <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
-      </a>
+      </a> -->
     </div>
   </header>
 <!-- weather widget -->
@@ -134,30 +138,50 @@
   <!-- Page Content -->
   <div class="container">
 
-    <h1 class="my-4">Current Items Available</h1>
+    <h1 class="my-4">Local Food. Local Folks. Local Music.</h1>
 
     <!-- Marketing Icons Section -->
     <div class="row">
       <div class="col-lg-4 mb-4">
         <div class="card h-100">
-          <h4 class="card-header">Local Producers</h4>
+          <h4 class="card-header">Local Venders</h4>
           <div class="card-body">
-            <img src="images/BOTB Image.png" alt="Carrots" width="150" height="160">
+            <img src="images/carrots.jpg" alt="Carrots" width="150" height="160">
             <p class="card-text">Homemade crafts and homegrown food.</p>
           </div>
           <div class="card-footer">
-            <a href="portfolio-1-col.html" class="btn btn-primary">Producer Links</a>
+            <a href="portfolio-1-col.html" class="btn btn-primary">Vender Links</a>
           </div>
         </div>
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card h-100">
-          <h4 class="card-header">Boats n Hos' + Current event</h4>
+          <h4 class="card-header">COVID-19 Information</h4>
           <div class="card-body">
-            <p class="card-text">It is the Catalina Wine Mixer Mofrackey</p>
+            <p class="card-text">
+              <h4>EVERYONE'S SAFETY IS OUR #1 PRIORITY</h4>
+
+              We will continue to follow procedures/guidelines and rules for customers as well as vendors, please read through the Facebook event HERE for guidance on shopping at the market during COVID 19. We appreciate your patience and support!  
+              
+              PLEASE SUPPORT OUR SMALL FAMILY FARMERS AND PRODUCERS DURING THIS TIME.
+              
+              If there is any way in which we can help you do so, please let us know.
+              
+              THANK YOU!</p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">tap here for redirect</a>
+            <a href="https://www.barrenriverhealth.org/" target= "_blank" class="btn btn-primary">Local Covid-19 Information</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100">
+          <h4 class="card-header">Current Items Available</h4>
+          <div class="card-body">
+            <p class="card-text">If we can figure out how a vendor can post up to date information about what they have for sale here that would be fantastic</p>
+          </div>
+          <div class="card-footer">
+            <a href="https://www.barrenriverhealth.org/" target= "_blank" class="btn btn-primary">tap here for redirect</a>
           </div>
         </div>
       </div>
@@ -174,6 +198,18 @@
       </div> -->
     </div>
     <!-- /.row -->
+<!-- Call to Action Section -->
+<div class="row mb-4">
+  <div class="col-md-6">
+    <h3 id="calltoactionH3">WANT TO BECOME A VENDOR? <br>JOIN IN THE FUN TODAY!</h3 id="calltoactionH3">
+  </div>
+  <div class="col-md-6">
+    <a class="btn btn-lg  btn-secondary btn-block" href="assets/2021VendorApplication.pdf" target="_blank">DOWNLOAD OUR 2021 APPLICATION</a>
+  </div>
+</div>
+
+</div>
+<!-- /.container -->
 
     <!-- Portfolio Section -->
     <h2>Portfolio Heading</h2>
@@ -241,7 +277,7 @@
             <h4 class="card-title">
               <a href="#">Project Six</a>
             </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit ducimus nihil provident, perferendis rem illo, voluptate atque, sit eius in voluptates, nemo repellat fugiat excepturi! Nemo, esse.</p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit ducimus nihil provident, perferendis rem illo, voluptate atque, sit eius in vo:luptates, nemo repellat fugiat excepturi! Nemo, esse.</p>
           </div>
         </div>
       </div>
@@ -273,7 +309,7 @@
     <hr>
 
     <!-- Call to Action Section -->
-    <div class="row mb-4">
+    <!-- <div class="row mb-4">
       <div class="col-md-8">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
       </div>
@@ -282,13 +318,13 @@
       </div>
     </div>
 
-  </div>
+  </div> -->
   <!-- /.container -->
 
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2020</p>
+      <p class="m-0 text-center text-white">Copyright &copy; ©2021 Bounty of the Barrens</p>
     </div>
     <!-- /.container -->
   </footer>

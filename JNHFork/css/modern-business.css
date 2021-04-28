@@ -3,34 +3,72 @@
  * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
-body {
-  padding-top: 56px;
+/* https://prod.liveshare.vsengsaas.visualstudio.com/join?4CDCC3733FA9443263E74306A54C48C3EC05 */
+.body {
+  
 }
-
 .carousel-item {
   height: 65vh;
   min-height: 300px;
   background: no-repeat center center scroll;
+  background: rgba(0, 0, 0, 0.7);
+/* text-align: center; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  
 }
 
 .portfolio-item {
   margin-bottom: 30px;
 }
 
-/* darkening the slide backgrounds */
-#carousel-caption {
-/* position: fixed; /* Sit on top of the page content */
-/* display: none; Hidden by default */ 
-width: 100%; /* Full width (cover the whole page) */
-height: 100%; /* Full height (cover the whole page) */
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-background-color: rgba(255, 0, 0, 0.8); /* Black background with opacity */
-z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-cursor: pointer; /* Add a pointer on hover */}
+
+.carousel-caption {
+  /* position: absolute; */
+  /* top: 0; */
+  left: 0;
+  width: 100%;
+  /* height: 100%; */
+  background: rgba(217, 72, 42, 0.7);
+}
+.navbar-custom {
+  opacity: 0.8; 
+  filter:(opacity=50); 
+}
+
+/* .navbar-custom img{
+  background: rgba(255, 255, 255, 1);
+} */
+
+.my-4 {
+  text-align: center;
+  color: rgb(217, 72, 42);
+}
+
+#calltoactionH3 {
+  text-align: center;
+  color: rgb(217, 72, 42);
+}
+
+.btn {
+  color: #FFF;
+  background-color: rgb(110,152,65);
+  border: rgb(217, 72, 42);
+
+  /* border-color: #5bc2c2 */
+}
+
+.btn:hover {
+  color: #FFF;
+  background-color: rgb(217, 72, 42);
+  border: rgb(217, 72, 42);
+
+  /* border-color: #5bc2c2 */
+}
+
+.py-5 {
+  text-align: center;
+  color: rgb(217, 72, 42);
+}
