@@ -8,7 +8,7 @@ body {
 }
 
 .carousel-item {
-  height: 75vh;
+  height: 65vh;
   min-height: 300px;
   background: no-repeat center center scroll;
   background: rgba(0, 0, 0, 0.7);
@@ -33,9 +33,12 @@ body {
   /* height: 100%; */
   background: rgba(0, 0, 0, 0.7);
 }
-/* .slideName h3{
-  position: relative;
-  
-  
- 
-} */
+.navbar-custom {
+  opacity: 0.8; 
+  /* filter:(opacity=50);  */
+
+}
+
+.container.navbar-brand img {
+  opacity: 1;
+}
