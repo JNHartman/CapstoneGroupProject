@@ -22,73 +22,18 @@
 </head>
 
 <body>
-
+  <video width="100%" height="100%" controls autoplay muted loop>
+    <source src="assets/BOTBVideo.mp4" type="video/mp4">
+  
+  Your browser does not support the video tag.
+  </video>
   <!-- Navigation -->
   
-  <nav class="navbar navbar-custom fixed-top navbar-expand-lg navbar-light bg-light fixed-top" >
-    <div class="container">
-      <a class="navbar-brand" href="index.html">
-        <!-- <img><i class="fas fa-2x fa-home"></i></a> -->
-        <img src="images/BOTBLogo.png" width="130" height="80" alt="Bounty of the Barrens Logo">
-  </a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio-item.html">Market Details</a>
-          </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="services.html">Services</a>
-          </li> -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="viewFarms.html" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Vendors
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-              <a class="dropdown-item" href="viewFarms.html">View Farms</a>
-              <a class="dropdown-item" href="https://573fba03-c2a6-443c-99bb-5dff0f96c4f5.filesusr.com/ugd/cbde25_6c42e764942544a486274ff8ce16068a.pdf" target= "_blank">Vendor Application</a>
-              <!-- <a class="dropdown-item" href="portfolio-3-col.html">3 Column Portfolio</a>
-              <a class="dropdown-item" href="portfolio-4-col.html">4 Column Portfolio</a>
-              <a class="dropdown-item" href="portfolio-item.html">Single Portfolio Item</a> -->
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Local News
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-              <!-- <a class="dropdown-item" href="https://weather.com/weather/today/l/8b67d6a4ab91c4f971ec89f5c4f3a50c871e7f914ebf8ecef52cf742b7380efb" target= "_blank">Weather</a> -->
-              <a class="dropdown-item" href="https://www.glasgowdailytimes.com/" target= "_blank">Glasgow Daily Times</a>
-              <!-- <a class="dropdown-item" href="blog-post.html">Blog Post</a> -->
-            </div>
-          </li>
-          <!-- <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPages" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Local Websites
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPages">
-              <a class="dropdown-item" href="full-width.html">Full Width Page</a>
-              <a class="dropdown-item" href="sidebar.html">Sidebar Page</a>
-              <a class="dropdown-item" href="faq.html">FAQ</a>
-              <a class="dropdown-item" href="404.html">404</a>
-              <a class="dropdown-item" href="pricing.html">Pricing Table</a>
-            </div>
-          </li> -->
-        </ul>
-      </div>
-    </div>
-  </nav>
+
 
 
   <header>
+   
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -97,11 +42,11 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <!-- Slide One - Set the background image for this slide in the line below -->
-           <div class="carousel-item active align-items-center flex-column p-" style="background-image: url('assets/marketStillShotSlide.jpg')">
+           <div class="carousel-item active align-items-center flex-column p-" style="background-image: url('assets/marketStillShotSlide.jpg')"></div>
           <div class="carousel-caption d-none d-md-block">
             <h3>It's a beautiful day to visit Bounty of the Barrens</h3>
             <br><p>This is a description for the first slide</p>
-          </div>r
+          </div>
         </div>
         <!-- Slide Two - Set the background image for this slide in the line below -->
         <div class="carousel-item" style="background-image: url('assets/berries.jpg')">
@@ -145,19 +90,20 @@
 
     <!-- Marketing Icons Section -->
     <div class="row">
-      <div class="col-lg-4 mb-4">
+      <div class="col-lg-3 mb-3">
         <div class="card h-100">
+          <!-- <img class="card-img" src="images/carrots.jpg" alt="Card image"> -->
           <h4 class="card-header">Local Vendors</h4>
           <div class="card-body">
             <img src="images/carrots.jpg" alt="Carrots" width="150" height="160">
             <p class="card-text">Homemade crafts and homegrown food.</p>
           </div>
           <div class="card-footer">
-            <a href="portfolio-1-col.html" class="btn btn-primary">Vendor Links</a>
+            <a href="viewFarms.html" class="btn btn-primary">Vendor Links</a>
           </div>
         </div>
       </div>
-      <div class="col-lg-4 mb-4">
+      <div class="col-lg-3 mb-3">
         <div class="card h-100">
           <h4 class="card-header">Public Safety</h4>
           <div class="card-body">
@@ -177,13 +123,10 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100">
-          <h4 class="card-header">Current Items Available</h4>
-          <div class="card-body">
-            <p class="card-text">If we can figure out how a vendor can post up to date information about what they have for sale here that would be fantastic</p>
-          </div>
-          <div class="card-footer">
+      <div class="col-lg-6 mb-6">
+        <!-- <div class="card h-100"> -->
+          <!-- <h4 class="card-header">Current Items Available</h4> -->
+          <!-- <div class="card-footer"> -->
             <a href="https://www.barrenriverhealth.org/" target= "_blank" class="btn btn-primary">tap here for redirect</a>
           </div>
         </div>
@@ -202,11 +145,11 @@
     </div>
     <!-- /.row -->
 <!-- Call to Action Section -->
-<div class="row mb-4">
+<div class="row mb-4 pr-4 r-3">
   <div class="col-md-6">
-    <h3 id="calltoactionH3">Vendor<br>Applications</h3 id="calltoactionH3">
+    <h3 id="calltoactionH3">Join our Farmer's Market today!<br>Download Your Application</h3 id="calltoactionH3">
   </div>
-  <div class="col-md-6">
+  <div class="col-md-4">
     <a class="btn btn-lg  btn-secondary btn-block" href="assets/2021VendorApplication.pdf" target="_blank">DOWNLOAD OUR 2021 APPLICATION</a>
   </div>
 </div>
@@ -215,17 +158,19 @@
 <!-- /.container -->
 
     <!-- Portfolio Section -->
-    <h2>Portfolio Heading</h2>
+   
 
     <div class="row">
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+          <a href="#"><img class="card-img-top" src="assets/marketSign.jpg" alt=""></a>
           <div class="card-body">
             <h4 class="card-title">
-              <a href="#">Project One</a>
+              ABOUT THE FARMERS MARKET
             </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
+            <p class="card-text">The Bounty of the Barrens (BOTB) is a local, producer-only farmers market supported by Sustainable Glasgow. We offer a variety of produce, meats, eggs, cheeses, baked goods and other local food and handcrafted items from Barren and surrounding counties. <br>
+              At the BOTB, you can meet local farmers & growers and learn how your food is produced. Buying local is a great way to build the local economy, buy healthy foods and connect with your neighbors. <br>             
+              Together, we are creating a community of educated consumers who understand the health, economic and environmental benefits of supporting local farms & producers. </p>
           </div>
         </div>
       </div>
@@ -234,9 +179,11 @@
           <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
           <div class="card-body">
             <h4 class="card-title">
-              <a href="#">Project Two</a>
+              What's In Season?
             </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            <p class="card-text">In Kentucky, we grow a variety of fresh fruits and vegetables throughout the year, giving you a large selection of fresh, healthy produce from right here in your community. 
+              ​<br>
+              Click Here to see the Kentucky Harvest Calendar. </p>
           </div>
         </div>
       </div>
@@ -245,9 +192,14 @@
           <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
           <div class="card-body">
             <h4 class="card-title">
-              <a href="#">Project Three</a>
+              Why Support Your Local Farmer's Market?
             </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
+            <p class="card-text">Our vendors are local farmers and producers from Barren and surrounding counties who are dedicated to providing our community with healthy, local food and products. <br>
+                    We are a producer-only market, which means our vendors produce the items they sell. That means you can be confident that everything is locally produced. By shopping at the Bounty of the Barrens, you support the local economy, have access to fresher, safer, healthier foods, reduce your carbon footprint and can actually get to know the people who produce what you consume. 
+              
+                  </p>
+                    <a href="https://www.nutrition.gov/topics/shopping-cooking-and-meal-planning/farmers-markets">
+              Check out the benefits of supporting your local farmers market.</a>a>
           </div>
         </div>
       </div>
@@ -256,9 +208,9 @@
           <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
           <div class="card-body">
             <h4 class="card-title">
-              <a href="#">Project Four</a>
+              Latest News
             </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            <p class="card-text">Our event schedule has been affected by the COVID-19 pandemic, as soon as we are able to do so in a safe manner we will offer our Shindig and local music and community events, please follow our Facebook page for updates</p>
           </div>
         </div>
       </div>
@@ -267,9 +219,12 @@
           <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
           <div class="card-body">
             <h4 class="card-title">
-              <a href="#">Project Five</a>
+              Upcoming Events
             </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            <p class="card-text">
+
+Our event schedule has been affected by the COVID-19 pandemic, as soon as we are able to do so in a safe manner we will offer our Shindig and local music and community events, please follow our Facebook page for updates
+            </p>
           </div>
         </div>
       </div>
@@ -277,10 +232,10 @@
         <div class="card h-100">
           <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
           <div class="card-body">
-            <h4 class="card-title">
-              <a href="#">Project Six</a>
-            </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit ducimus nihil provident, perferendis rem illo, voluptate atque, sit eius in vo:luptates, nemo repellat fugiat excepturi! Nemo, esse.</p>
+              <h4 class="card-title">
+                Payment Information
+              </h4>
+              <p class="card-text">Most vendors accept cash and checks. Many also accept WIC and Senior Farmers Market Nutrition Program vouchers for produce. SNAP, credit and debit cards can be used at the BOTB Market Booth to purchase tokens which can be used at the market.</p>
           </div>
         </div>
       </div>
@@ -325,12 +280,7 @@
   <!-- /.container -->
 
   <!-- Footer -->
-  <footer class="py-5 bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; ©2021 Bounty of the Barrens</p>
-    </div>
-    <!-- /.container -->
-  </footer>
+ 
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>

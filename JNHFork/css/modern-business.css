@@ -4,10 +4,11 @@
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
 /* https://prod.liveshare.vsengsaas.visualstudio.com/join?4CDCC3733FA9443263E74306A54C48C3EC05 */
-.body {
+.navbar {
+  position: sticky
 }
 .carousel-item {
-  margin-top: 105px;
+  margin-top: 0px;
   height: 65vh;
   min-height: 300px;
   background: no-repeat center center scroll;
@@ -47,11 +48,27 @@
   color: rgb(217, 72, 42);
 }
 
+.card-title {
+  text-align: center;
+  color: rgb(217, 72, 42);
+}
+
 #calltoactionH3 {
   text-align: center;
   color: rgb(217, 72, 42);
 }
 
+.h1header {
+  text-align: left;
+  color: rgb(217, 72, 42);
+}
+.breadcrumb-item.active {
+  color: rgb(217, 72, 42); 
+
+}
+.col-md-7 h3 {
+  color: rgb(217, 72, 42); 
+}
 .btn {
   color: #FFF;
   background-color: rgb(110,152,65);
@@ -70,6 +87,6 @@
 
 .py-5 {
   text-align: center;
-  color: rgb(217, 72, 42);
+  background: rgb(217, 72, 42);
 }
 
