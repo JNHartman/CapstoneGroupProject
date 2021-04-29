@@ -5,9 +5,9 @@
  */
 /* https://prod.liveshare.vsengsaas.visualstudio.com/join?4CDCC3733FA9443263E74306A54C48C3EC05 */
 .body {
-  
 }
 .carousel-item {
+  margin-top: 105px;
   height: 65vh;
   min-height: 300px;
   background: no-repeat center center scroll;
@@ -72,3 +72,4 @@
   text-align: center;
   color: rgb(217, 72, 42);
 }
+
