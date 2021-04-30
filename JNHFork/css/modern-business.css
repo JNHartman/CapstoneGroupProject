@@ -4,16 +4,19 @@
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
 /* https://prod.liveshare.vsengsaas.visualstudio.com/join?4CDCC3733FA9443263E74306A54C48C3EC05 */
-.navbar {
-  position: sticky
+
+
+
+.nav-placeholder {
+  position: sticky;
 }
+
 .carousel-item {
   margin-top: 0px;
   height: 65vh;
   min-height: 300px;
   background: no-repeat center center scroll;
   background: rgba(0, 0, 0, 0.7);
-/* text-align: center; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -90,3 +93,8 @@
   background: rgb(217, 72, 42);
 }
 
+.container .row .col-lg-4 .card #scrolling {
+  height: 50vh;
+  overflow: auto;
+
+}

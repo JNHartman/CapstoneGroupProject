@@ -8,7 +8,10 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Farm to table</title>
+  <title>BOTB Vendors</title>
+
+  <!-- Navbar jqueary -->
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
    <!-- Bootstrap core CSS -->
    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -23,69 +26,17 @@
 
 <body>
 
-    <!-- Navigation -->
-  
-    <nav class="navbar navbar-custom fixed-top navbar-expand-lg navbar-light bg-light fixed-top" >
-      <div class="container">
-        <a class="navbar-brand" href="index.html">
-          <!-- <img><i class="fas fa-2x fa-home"></i></a> -->
-          <img src="images/BOTBLogo.png" width="130" height="80" alt="Bounty of the Barrens Logo">
-    </a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio-item.html">Market Details</a>
-            </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link" href="services.html">Services</a>
-            </li> -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="viewFarms.html" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Vendors
-              </a>
-              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-                <a class="dropdown-item" href="viewFarms.html">View Farms</a>
-                <a class="dropdown-item" href="https://573fba03-c2a6-443c-99bb-5dff0f96c4f5.filesusr.com/ugd/cbde25_6c42e764942544a486274ff8ce16068a.pdf" target= "_blank">Become A Vendor</a>
-                <!-- <a class="dropdown-item" href="portfolio-3-col.html">3 Column Portfolio</a>
-                <a class="dropdown-item" href="portfolio-4-col.html">4 Column Portfolio</a>
-                <a class="dropdown-item" href="portfolio-item.html">Single Portfolio Item</a> -->
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Local News
-              </a>
-              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-                <!-- <a class="dropdown-item" href="https://weather.com/weather/today/l/8b67d6a4ab91c4f971ec89f5c4f3a50c871e7f914ebf8ecef52cf742b7380efb" target= "_blank">Weather</a> -->
-                <a class="dropdown-item" href="https://www.glasgowdailytimes.com/" target= "_blank">Glasgow Daily Times</a>
-                <!-- <a class="dropdown-item" href="blog-post.html">Blog Post</a> -->
-              </div>
-            </li>
-            <!-- <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPages" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Local Websites
-              </a>
-              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPages">
-                <a class="dropdown-item" href="full-width.html">Full Width Page</a>
-                <a class="dropdown-item" href="sidebar.html">Sidebar Page</a>
-                <a class="dropdown-item" href="faq.html">FAQ</a>
-                <a class="dropdown-item" href="404.html">404</a>
-                <a class="dropdown-item" href="pricing.html">Pricing Table</a>
-              </div>
-            </li> -->
-          </ul>
-        </div>
-      </div>
-    </nav>
+   <!--Navigation bar-->
+<div id="nav-placeholder">
+
+</div>
+  <script>
+  $(function(){
+    $("#nav-placeholder").load("assets/php/header.html");
+  });
+  </script>
+
+<!--end of Navigation bar-->
   <!-- Page Content -->
   <div class="container" style="margin-top: 105px">
 
@@ -112,7 +63,7 @@
       <div class="col-md-7">
         <h3>Argent Moon Farm</h3>
         <p>Our Farm focuses on threats across the world and Superhero propagation</p>
-        <a class="btn btn-primary" href="LocalVendors/argentMoomFarm.html">View Farm
+        <a class="btn btn-primary" href="argentMoomFarm.html">View Farm
           <span class="glyphicon glyphicon-chevron-right"></span>
         </a>
       </div>
@@ -130,7 +81,7 @@
       <div class="col-md-7">
         <h3>Bennett Family Farms</h3>
         <p>Bennett done been init so you can get it</p>
-        <a class="btn btn-primary" href="LocalVendors/bennettFamilyFarms.html">View Farm
+        <a class="btn btn-primary" href="bennettFamilyFarms.html">View Farm
           <span class="glyphicon glyphicon-chevron-right"></span>
         </a>
       </div>
@@ -149,7 +100,7 @@
       <div class="col-md-7">
         <h3>Blueberry Hills Farm & Nursery</h3>
         <p>Kind of like the song but not quite</p>
-        <a class="btn btn-primary" href="LocalVendors/blueberryHillsFarmAndNursery.html">View Farm
+        <a class="btn btn-primary" href="blueberryHillsFarmAndNursery.html">View Farm
           <span class="glyphicon glyphicon-chevron-right"></span>
         </a>
       </div>
@@ -171,7 +122,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem
           officiis illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?
         </p>
-        <a class="btn btn-primary" href="LocalVendors/bluegrassVineyard.html">View Farm
+        <a class="btn btn-primary" href="bluegrassVineyard.html">View Farm
           <span class="glyphicon glyphicon-chevron-right"></span>
         </a>
       </div>
@@ -190,7 +141,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, temporibus, dolores, at, praesentium ut unde
           repudiandae voluptatum sit ab debitis suscipit fugiat natus velit excepturi amet commodi deleniti alias
           possimus!</p>
-        <a class="btn btn-primary" href="LocalVendors/cherryFarms.html">View Farm
+        <a class="btn btn-primary" href="cherryFarms.html">View Farm
           <span class="glyphicon glyphicon-chevron-right"></span>
         </a>
       </div>
@@ -212,7 +163,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem
           officiis illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?
         </p>
-        <a class="btn btn-primary" href="LocalVendors/chestnutCove.html">View Farm
+        <a class="btn btn-primary" href="chestnutCove.html">View Farm
           <span class="glyphicon glyphicon-chevron-right"></span>
         </a>
       </div>
@@ -232,7 +183,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem
           officiis illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?
         </p>
-        <a class="btn btn-primary" href="LocalVendors/dennisonRoadsideMarket.html">View Farm
+        <a class="btn btn-primary" href="dennisonRoadsideMarket.html">View Farm
           <span class="glyphicon glyphicon-chevron-right"></span>
         </a>
       </div>
@@ -253,7 +204,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem
           officiis illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?
         </p>
-        <a class="btn btn-primary" href="LocalVendors/flourishingHerbs.html">View Farm
+        <a class="btn btn-primary" href="flourishingHerbs.html">View Farm
           <span class="glyphicon glyphicon-chevron-right"></span>
         </a>
       </div>
@@ -273,7 +224,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem
           officiis illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?
         </p>
-        <a class="btn btn-primary" href="LocalVendors/groceProduceAndGreenhouse.html">View Farm
+        <a class="btn btn-primary" href="groceProduceAndGreenhouse.html">View Farm
           <span class="glyphicon glyphicon-chevron-right"></span>
         </a>
       </div>
@@ -294,7 +245,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, temporibus, dolores, at, praesentium ut unde
           repudiandae voluptatum sit ab debitis suscipit fugiat natus velit excepturi amet commodi deleniti alias
           possimus!</p>
-        <a class="btn btn-primary" href="LocalVendors/growingBoys.html">View Farm
+        <a class="btn btn-primary" href="growingBoys.html">View Farm
           <span class="glyphicon glyphicon-chevron-right"></span>
         </a>
       </div>
@@ -316,7 +267,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem
           officiis illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?
         </p>
-        <a class="btn btn-primary" href="LocalVendors/hinesEastForkFarm.html">View Farm
+        <a class="btn btn-primary" href="hinesEastForkFarm.html">View Farm
           <span class="glyphicon glyphicon-chevron-right"></span>
         </a>
       </div>
@@ -336,7 +287,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem
           officiis illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?
         </p>
-        <a class="btn btn-primary" href="LocalVendors/jacksonsOrchardNursery.html">View Farm
+        <a class="btn btn-primary" href="jacksonsOrchardNursery.html">View Farm
           <span class="glyphicon glyphicon-chevron-right"></span>
         </a>
       </div>
@@ -356,7 +307,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem
           officiis illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?
         </p>
-        <a class="btn btn-primary" href="LocalVendors/lakeBerryFarms.html">View Farm
+        <a class="btn btn-primary" href="lakeBerryFarms.html">View Farm
           <span class="glyphicon glyphicon-chevron-right"></span>
         </a>
       </div>
@@ -376,7 +327,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem
           officiis illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?
         </p>
-        <a class="btn btn-primary" href="LocalVendors/legacyDairy.html">View Farm
+        <a class="btn btn-primary" href="legacyDairy.html">View Farm
           <span class="glyphicon glyphicon-chevron-right"></span>
         </a>
       </div>
@@ -396,7 +347,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, temporibus, dolores, at, praesentium ut unde
           repudiandae voluptatum sit ab debitis suscipit fugiat natus velit excepturi amet commodi deleniti alias
           possimus!</p>
-        <a class="btn btn-primary" href="LocalVendors/lindaKaysCraftyCrafts.html">View Farm
+        <a class="btn btn-primary" href="lindaKaysCraftyCrafts.html">View Farm
           <span class="glyphicon glyphicon-chevron-right"></span>
         </a>
       </div>
@@ -418,7 +369,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem
           officiis illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?
         </p>
-        <a class="btn btn-primary" href="LocalVendors/rusticRevival.html">View Farm
+        <a class="btn btn-primary" href="rusticRevival.html">View Farm
           <span class="glyphicon glyphicon-chevron-right"></span>
         </a>
       </div>
@@ -438,7 +389,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem
           officiis illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?
         </p>
-        <a class="btn btn-primary" href="LocalVendors/stuartosOliveOilCo.html">View Farm
+        <a class="btn btn-primary" href="stuartosOliveOilCo.html">View Farm
           <span class="glyphicon glyphicon-chevron-right"></span>
         </a>
       </div>
@@ -458,7 +409,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, temporibus, dolores, at, praesentium ut unde
           repudiandae voluptatum sit ab debitis suscipit fugiat natus velit excepturi amet commodi deleniti alias
           possimus!</p>
-        <a class="btn btn-primary" href="LocalVendors/theSquareCakesAndCatering.html">View Farm
+        <a class="btn btn-primary" href="theSquareCakesAndCatering.html">View Farm
           <span class="glyphicon glyphicon-chevron-right"></span>
         </a>
       </div>
@@ -480,7 +431,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem
           officiis illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?
         </p>
-        <a class="btn btn-primary" href="LocalVendors/thornlessThistleFlowers.html">View Farm
+        <a class="btn btn-primary" href="thornlessThistleFlowers.html">View Farm
           <span class="glyphicon glyphicon-chevron-right"></span>
         </a>
       </div>
@@ -500,7 +451,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem
           officiis illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?
         </p>
-        <a class="btn btn-primary" href="LocalVendors/tomsTurningsAndLorisBurnings.html">View Farm
+        <a class="btn btn-primary" href="tomsTurningsAndLorisBurnings.html">View Farm
           <span class="glyphicon glyphicon-chevron-right"></span>
         </a>
       </div>
@@ -512,12 +463,15 @@
   <!-- /.container -->
 
    <!-- Footer -->
-   <footer class="py-5">
-    <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; 2021 Bounty of the Barrens</p>
-    </div>
-    <!-- /.container -->
-  </footer>
+   <div id="footer-placeholder">
+
+  </div>
+    <script>
+    $(function(){
+      $("#footer-placeholder").load("assets/php/footer.html");
+    });
+    </script>
+
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
