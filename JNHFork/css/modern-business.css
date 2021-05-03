@@ -5,7 +5,25 @@
  */
 /* https://prod.liveshare.vsengsaas.visualstudio.com/join?4CDCC3733FA9443263E74306A54C48C3EC05 */
 
+.fa-facebook {
+  color: white;
+}
+.fa-twitter {
+  color: white;
+}
 
+.fa-at {
+  color: white;
+}
+
+.copyright{
+  padding: 10px;
+}
+
+.credit {
+  color: white;
+  text-decoration: underline;
+}
 
 .nav-placeholder {
   position: sticky;
@@ -97,4 +115,10 @@
   height: 50vh;
   overflow: auto;
 
+}
+.h4homepg a{
+
+  text-decoration: underline;
+  color: rgb(217, 72, 42);
+  
 }
