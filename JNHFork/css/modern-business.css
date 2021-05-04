@@ -5,34 +5,16 @@
  */
 /* https://prod.liveshare.vsengsaas.visualstudio.com/join?4CDCC3733FA9443263E74306A54C48C3EC05 */
 
-.fa-facebook {
-  color: white;
-}
-.fa-twitter {
-  color: white;
-}
-
-.fa-at {
-  color: white;
-}
-
-.copyright{
-  padding: 10px;
-}
-
-.credit {
-  color: white;
-  text-decoration: underline;
-}
 
 .nav-placeholder {
   position: sticky;
 }
 
 .bkgdColor {
-background: red;}
+padding: 50px;
+}
 
-
+/*  HOMEPAGE CAROUSEL ITEMS */
 .carousel-item {
   margin-top: 0px;
   height: 65vh;
@@ -46,11 +28,6 @@ background: red;}
   
 }
 
-/* .portfolio-item {
-  margin-bottom: 30px;
-} */
-
-
 .carousel-caption {
   /* position: absolute; */
   /* top: 0; */
@@ -59,28 +36,35 @@ background: red;}
   /* height: 100%; */
   background: rgba(217, 72, 42, 0.7);
 }
+/* NAVBAR CSS */
 .navbar-custom {
   opacity: 0.8; 
   filter:(opacity=50); 
 }
 
-/* .navbar-custom img{
-  background: rgba(255, 255, 255, 1);
-} */
+.nav2{
+  position: sticky!important;
+}
 
 .my-4 {
   text-align: center;
   color: rgb(217, 72, 42);
 }
-
-.card-title {
+/* HOMEPAGE CARDS */
+.card-header{
   text-align: center;
-  color: rgb(217, 72, 42);git 
+  color: rgb(217, 72, 42);
+  background-color: white; 
+}
+
+.card{ 
+   opacity: 0.85;
 }
 
 #calltoactionH3 {
   text-align: center;
   color: rgb(217, 72, 42);
+  padding: 50px;
 }
 
 .h1header {
@@ -135,5 +119,24 @@ background: red;}
  margin-bottom: 10px;
 margin-left: 100px;
 }
-li {
+/* FOOTER CSS */
+
+.fa-facebook {
+  color: white;
+}
+.fa-twitter {
+  color: white;
+}
+
+.fa-at {
+  color: white;
+}
+
+.copyright{
+  padding: 10px;
+}
+
+.credit {
+  color: white;
+  text-decoration: underline;
 }
