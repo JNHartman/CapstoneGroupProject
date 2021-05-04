@@ -29,6 +29,10 @@
   position: sticky;
 }
 
+.bkgdColor {
+background: red;}
+
+
 .carousel-item {
   margin-top: 0px;
   height: 65vh;
@@ -42,9 +46,9 @@
   
 }
 
-.portfolio-item {
+/* .portfolio-item {
   margin-bottom: 30px;
-}
+} */
 
 
 .carousel-caption {
