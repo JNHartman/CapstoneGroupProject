@@ -8,15 +8,25 @@
 ul.no-bullets {
   list-style-type: none;
   margin: 0;
-  padding: 0;}
+  padding: 0;
+}
 
 .nav-placeholder {
   position: sticky;
 }
 
 .bkgdColor {
-padding: 50px;
+  padding: 50px;
+  background-size: contain;
+  /* width: 100%;
+  height: auto; */
+  
 }
+
+/* img.bg {
+  background-size: contain;
+} */
+
 
 /*  HOMEPAGE CAROUSEL ITEMS */
 .carousel-item {
@@ -29,7 +39,6 @@ padding: 50px;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  
 }
 
 .carousel-caption {
@@ -42,58 +51,61 @@ padding: 50px;
 }
 /* NAVBAR CSS */
 .navbar-custom {
-  opacity: 0.8; 
-  filter:(opacity=50); 
+  opacity: 0.8;
+  filter: (opacity=50);
 }
 
-.nav2{
-  position: sticky!important;
+.nav2 {
+  position: sticky !important;
 }
 
 .my-4 {
   text-align: center;
   color: rgb(217, 72, 42);
+  padding: 15px;
 }
 /* HOMEPAGE CARDS */
-.card-header{
+
+.card {
+  border: none;
+}
+.card-header {
   text-align: center;
   color: rgb(217, 72, 42);
-  background-color: white; 
+  background-color: ;
+  border: none;
 }
 .container .row .col-lg-4 .card #scrolling {
   height: 50vh;
   overflow: auto;
   text-align: center;
-
 }
-#Dates{
+#Dates {
   text-align: center;
-  color:rgb(217, 72, 42);
+  color: rgb(217, 72, 42);
   text-transform: uppercase;
-  
 }
-#dateHeader{
+#dateHeader {
   text-align: center;
-  color:rgb(110,152,65)
+  color: rgb(110, 152, 65);
 }
 
-#ukag{
-  color:rgb(217, 72, 42);
+#ukag {
+  color: rgb(217, 72, 42);
   text-transform: uppercase;
 }
 /* .fa-envelope-open-text{
   flex-wrap: wrap;
   background:black;
 } */
-.card{ 
+.card {
   /* opacity: 0.85; */
   padding: 10px;
 }
 
-
 /* HOMEPAGE PORTFOLIO CARDS */
 
-.h4homepg a{
+.h4homepg a {
   text-transform: uppercase;
   text-decoration: underline;
   color: rgb(217, 72, 42);
@@ -104,26 +116,28 @@ padding: 50px;
 }
 
 .card-title {
-  color:rgb(110,152,65);
+  color: rgb(110, 152, 65);
   text-align: center;
 }
 
-.fa-phone-square{
-  color:rgb(110,152,65);
+.fa-phone-square {
+  color: rgb(110, 152, 65);
 }
-.li{
-  margin:100px;
+.li {
+  margin: 100px;
 }
-.fa-envelope-open-text{
-  color:rgb(110,152,65);
-  
-  
+.fa-envelope-open-text {
+  color: rgb(110, 152, 65);
 }
 
-.fa-map-marker-alt{
-  color:rgb(110,152,65);
-  
-  
+.fa-map-marker-alt {
+  color: rgb(110, 152, 65);
+}
+
+#header-image-menu img{
+  width: 100%;
+  margin: none;
+  padding: none;
 }
 
 #calltoactionH3 {
@@ -137,11 +151,10 @@ padding: 50px;
   color: rgb(217, 72, 42);
 }
 .breadcrumb-item.active {
-  color: rgb(217, 72, 42); 
-  
+  color: rgb(217, 72, 42);
 }
 .col-md-7 h3 {
-  color: rgb(217, 72, 42); 
+  color: rgb(217, 72, 42);
 }
 
 /* VIEW VENDORS PAGE */
@@ -151,19 +164,17 @@ padding: 50px;
   text-align: center;
 }
 
-
-
 .btn {
-  color: #FFF;
-  background-color: rgb(110,152,65);
-  border: rgb(217, 72, 42);        
+  color: #fff;
+  background-color: rgb(110, 152, 65);
+  border: rgb(217, 72, 42);
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .btn:hover {
-  color: #FFF;
+  color: #fff;
   background-color: rgb(217, 72, 42);
   border: rgb(217, 72, 42);
 }
@@ -173,9 +184,6 @@ padding: 50px;
   background: rgb(217, 72, 42);
 }
 
-
-
-
 .my-3 {
   text-align: center;
   color: rgb(217, 72, 42);
@@ -183,6 +191,7 @@ padding: 50px;
 .venButton {
   margin-bottom: 10px;
   margin-left: 100px;
+  margin-top: 30px;
 }
 /* FOOTER CSS */
 
@@ -197,7 +206,7 @@ padding: 50px;
   color: white;
 }
 
-.copyright{
+.copyright {
   padding: 10px;
 }
 
@@ -207,23 +216,17 @@ padding: 50px;
 }
 
 .fa-facebook-f {
-  color:rgb(110,152,65);
+  color: rgb(110, 152, 65);
 }
-.no-bullets{
+.no-bullets {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
 }
-.no-bullets li{
+.no-bullets li {
   display: flex;
-  justify-content: space-between;
-  padding:10px;
-  align-items: left;
-  
-  
+  padding: 10px;
+  align-items: center;
 }
 
 .center {
@@ -232,3 +235,7 @@ padding: 50px;
   margin-right: auto;
   width: 50%;
 }
+
+/* .container {
+  justify-content: flex center;
+} */
