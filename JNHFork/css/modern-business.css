@@ -56,6 +56,27 @@ padding: 50px;
   color: rgb(217, 72, 42);
   background-color: white; 
 }
+.container .row .col-lg-4 .card #scrolling {
+  height: 50vh;
+  overflow: auto;
+  text-align: center;
+
+}
+#Dates{
+  text-align: center;
+  color:rgb(217, 72, 42);
+  text-transform: uppercase;
+
+}
+#dateHeader{
+  text-align: center;
+  color:rgb(110,152,65)
+}
+
+#ukag{
+  color:rgb(217, 72, 42);
+  text-transform: uppercase;
+}
 
 .card{ 
    opacity: 0.85;
@@ -95,15 +116,12 @@ padding: 50px;
 }
 
 .py-5 {
+  colo
   text-align: center;
   background: rgb(217, 72, 42);
 }
 
-.container .row .col-lg-4 .card #scrolling {
-  height: 50vh;
-  overflow: auto;
 
-}
 .h4homepg a{
 
   text-decoration: underline;
