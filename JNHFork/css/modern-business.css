@@ -5,11 +5,28 @@
  */
 /* https://prod.liveshare.vsengsaas.visualstudio.com/join?4CDCC3733FA9443263E74306A54C48C3EC05 */
 
-ul.no-bullets {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
+/* VENDOR PAGES */
+    .fa-phone-square{
+    margin-right:15px;
+    }
+
+    .fa-envelope-open-text{
+      margin-right:15px;
+    }
+
+    .fa-map-marker-alt{
+      margin-right:15px;
+    }
+
+    .fa-facebook-f{
+      margin-right:15px;
+    }
+
+    ul.no-bullets {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
 
 /* .nav-placeholder {
   position: sticky;
@@ -49,10 +66,13 @@ ul.no-bullets {
   /* height: 100%; */
   background: rgba(217, 72, 42, 0.7);
 }
+
 /* NAVBAR CSS */
 .navbar-custom {
   opacity: 0.8;
   filter: (opacity=50);
+
+
 }
 
 .nav2 {
@@ -244,3 +264,6 @@ ul.no-bullets {
 /* .container {
   justify-content: flex center;
 } */
+
+
+/* NAVBAR HIDE LOGO SCROLL */
