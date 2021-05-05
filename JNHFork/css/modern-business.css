@@ -72,7 +72,7 @@ ul.no-bullets {
 .card-header {
   text-align: center;
   color: rgb(217, 72, 42);
-  background-color: ;
+  /* background-color:  */
   border: none;
 }
 .container .row .col-lg-4 .card #scrolling {
@@ -218,6 +218,9 @@ ul.no-bullets {
 .fa-facebook-f {
   color: rgb(110, 152, 65);
 }
+.fa-globe {
+  color: rgb(110, 152, 65);
+}
 .no-bullets {
   display: flex;
   justify-content: center;
@@ -227,6 +230,8 @@ ul.no-bullets {
   display: flex;
   padding: 10px;
   align-items: center;
+  /* justify-items: center; */
+  /* flex-direction: column; */
 }
 
 .center {
